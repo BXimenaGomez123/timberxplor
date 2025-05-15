@@ -8,3 +8,10 @@ body {
 	margin: auto;
 	padding: 1em;
 }
+#map svg {
+    float: right; 
+    width: 50%; 
+    height: auto; 
+    border: 1px solid #000; 
+    margin-left: auto; 
+}
