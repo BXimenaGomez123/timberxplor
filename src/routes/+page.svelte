@@ -18,7 +18,7 @@
         await new Promise(res => map.on("load", res));
 
         
-        const data = await d3.json('$lib/data/caminos.json');
+        const data = await d3.json('../src/lib/data/caminos.json');
         const features = data.paths.map((path, idx) => ({
         type: 'Feature',
         geometry: {
